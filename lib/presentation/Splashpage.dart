@@ -1,14 +1,14 @@
-import 'package:applock/presentation/Activity.dart';
-import 'package:applock/presentation/Setting.dart';
-import 'package:applock/utils/Global.dart';
-import 'package:applock/utils/GlobalFunction.dart';
-import 'package:applock/utils/StringValues.dart';
+import 'package:applock/presentation/activity.dart';
+import 'package:applock/presentation/setting.dart';
+import 'package:applock/utils/global.dart';
+import 'package:applock/utils/global_function.dart';
+import 'package:applock/utils/string_values.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 
 class Splashpage extends StatefulWidget {
-    static String routeNamed = StringValues.splashPage;
+    static String routeNamed = Pagevalues.splashPage;
 
   const Splashpage({super.key});
 
