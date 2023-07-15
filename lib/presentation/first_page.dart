@@ -15,7 +15,7 @@ class _FirstPageState extends State<Firstpage> {
   void initState() {
     super.initState();
     Future.delayed(const Duration(seconds: 1), () {
-      Navigator.pushReplacementNamed(context, Pagevalues.splashPage);
+      Navigator.pushReplacementNamed(context, Pagevalues.appPermissionDataPage);
     });
   }
 

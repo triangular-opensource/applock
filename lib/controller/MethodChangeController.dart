@@ -81,15 +81,15 @@ class MethodChannelController extends GetxController implements GetxService {
     }
   }
 
-  Future stopForeground() async {
-    try {
-      await platform.invokeMethod('stopForeground', "").then((value) {
-        log("$value", name: "stopForeground CALLED");
-      });
-    } on PlatformException catch (e) {
-      log("Failed to Invoke: '${e.message}'.");
-    }
-  }
+  // Future stopForeground() async {
+  //   try {
+  //     await platform.invokeMethod('stopForeground', "").then((value) {
+  //       log("$value", name: "stopForeground CALLED");
+  //     });
+  //   } on PlatformException catch (e) {
+  //     log("Failed to Invoke: '${e.message}'.");
+  //   }
+  // }
 
   Future<bool> askNotificationPermission() async {
     // await AppSettings.openAppSettings();
