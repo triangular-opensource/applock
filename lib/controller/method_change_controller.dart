@@ -1,6 +1,6 @@
 import 'dart:developer';
-import 'package:applock/controller/AppController.dart';
-import 'package:applock/controller/PermissionController.dart';
+import 'package:applock/controller/app_controller.dart';
+import 'package:applock/controller/permission_controller.dart';
 import 'package:applock/utils/string_values.dart';
 import 'package:flutter/services.dart';
 import 'package:get/instance_manager.dart';

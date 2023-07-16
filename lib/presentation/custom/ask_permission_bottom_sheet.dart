@@ -1,4 +1,4 @@
-import 'package:applock/controller/MethodChangeController.dart';
+import 'package:applock/controller/method_change_controller.dart';
 import 'package:applock/utils/fonts.dart';
 import 'package:applock/utils/global_function.dart';
 import 'package:flutter/material.dart';

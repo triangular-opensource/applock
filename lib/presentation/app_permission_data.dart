@@ -1,8 +1,8 @@
 
-import 'package:applock/controller/AppController.dart';
-import 'package:applock/controller/MethodChangeController.dart';
-import 'package:applock/controller/PermissionController.dart';
-import 'package:applock/presentation/Splashpage.dart';
+import 'package:applock/controller/app_controller.dart';
+import 'package:applock/controller/method_change_controller.dart';
+import 'package:applock/controller/permission_controller.dart';
+import 'package:applock/presentation/splash_page.dart';
 import 'package:applock/utils/global_function.dart';
 import 'package:applock/utils/string_values.dart';
 import 'package:flutter/material.dart';

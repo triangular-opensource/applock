@@ -1,6 +1,6 @@
 import 'dart:developer';
 import 'dart:typed_data';
-import 'package:applock/controller/MethodChangeController.dart';
+import 'package:applock/controller/method_change_controller.dart';
 import 'package:applock/models/application_data.dart';
 import 'package:applock/models/application_data_model.dart';
 import 'package:applock/utils/global_function.dart';

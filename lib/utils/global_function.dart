@@ -1,7 +1,7 @@
-import 'package:applock/controller/AppController.dart';
-import 'package:applock/controller/HomeScreenController.dart';
-import 'package:applock/controller/MethodChangeController.dart';
-import 'package:applock/controller/PermissionController.dart';
+import 'package:applock/controller/app_controller.dart';
+import 'package:applock/controller/home_screen_controller.dart';
+import 'package:applock/controller/method_change_controller.dart';
+import 'package:applock/controller/permission_controller.dart';
 import 'package:applock/presentation/custom/ask_permission_bottom_sheet.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

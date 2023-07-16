@@ -1,7 +1,7 @@
 import 'package:applock/presentation/app_permission_data.dart';
 import 'package:applock/presentation/custom/ask_permission_bottom_sheet.dart';
 import 'package:applock/presentation/first_page.dart';
-import 'package:applock/presentation/Splashpage.dart';
+import 'package:applock/presentation/splash_page.dart';
 import 'package:applock/utils/global_function.dart';
 import 'package:applock/utils/string_values.dart';
 import 'package:flutter/material.dart';
